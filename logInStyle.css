@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("http://fullhdpictures.com/wp-content/uploads/2015/03/Landscape-Wallpapers-2015.png");
+  font-family: Courier new, lucida console;
+  font-size: 15px;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  color: White;
+  font-size: 50px;
+  padding: 50px 10px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.center {
+    width: 60%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: auto; 
+	text-align: center;
+	border-radius: 25px;
+}
+
+.button {
+    background-color:#b3d1ff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 4px;
+    cursor: pointer;
+	border-radius: 25px;
+}
+
+input {
+    width: 80%;
+}
